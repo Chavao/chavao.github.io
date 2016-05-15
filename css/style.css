@@ -33,7 +33,7 @@ a {
     width: 90%;
 }
 
-.icon-list {    
+.icon-list {
     list-style: none;
 }
 
@@ -62,5 +62,5 @@ a {
 @media (max-width: 350px) {
     .badge img {
         width: 2em;
-    }   
+    }
 }
