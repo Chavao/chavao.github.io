@@ -1,0 +1,61 @@
+* {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 30px 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.icon-list {    
+    list-style: none;
+}
+
+.icon-list li {
+    display: inline;
+    font-size: 5em;
+    margin-right: 0.5em;
+}
+
+.badge {
+    position: absolute;
+    top: 0.7em;
+    right: 0.7em;
+}
+
+.badge img {
+    width: 4em;
+}
+
+@media (max-width: 700px) {
+    .badge img {
+        width: 3em;
+    }
+}
+
+@media (max-width: 350px) {
+    .badge img {
+        width: 2em;
+    }   
+}
